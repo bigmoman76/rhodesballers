@@ -53,6 +53,7 @@ export const managers = [
        "philosophy": "Betting against the Bears",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/nate.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 103, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "343438039277658112",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -62,6 +63,7 @@ export const managers = [
        "philosophy": "Missing Brett Favre",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/james.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 462, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "523201490963185664",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -71,15 +73,17 @@ export const managers = [
        "philosophy": "Being a member of the 12th man",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/andrew.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 996, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "570651875111063552",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Jared",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "hou", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Starting Tebow",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/jared.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 559, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712028764032290816",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -89,6 +93,7 @@ export const managers = [
        "philosophy": "Buying Buffalo Bills hawaiian t-shirts",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/stephen.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 2212, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712083384075091968",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -98,6 +103,7 @@ export const managers = [
        "philosophy": "Thinking this will finally be the year for the Titans",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/john.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 9999, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712083810069594112",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -107,6 +113,7 @@ export const managers = [
        "philosophy": "Criticising league commissioners over ever issue",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/tom.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 4981, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712125567763337216",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -116,6 +123,7 @@ export const managers = [
        "philosophy": "Being a closeted Lions fan",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/jack.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 3163, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712558417339805696",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -125,6 +133,7 @@ export const managers = [
        "philosophy": "Drafting Cam Newton at all costs",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/mvp.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 954, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "719226505930027008",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -134,6 +143,7 @@ export const managers = [
        "philosophy": "Some sort of communist who appreciates chatbots",
        "tradingScale": null, // 1 - 10
        "photo": "/managers/joey.jpg", // square ratio recommended (no larger than 500x500)
+       "favoritePlayer": 1071, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "720725237783658496",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
