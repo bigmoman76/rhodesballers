@@ -24,7 +24,7 @@ export const homepageText = `
   <p>Check the standings to see just how low you can go. We rank you, we judge you, and we make sure everyone knows who's at the top (and more importantly, who's at the bottom). Remember, there's no shame in last place—just endless ridicule.</p>
 
   <p><b>Head-to-Head Rivalries: Where Friendships Go to Die</b></p>
-  <p>Welcome to the bloodbath, folks. Our Head-to-Head Rivalries section is where friendships go to die. Think you’ve got what it takes to dominate your so-called friends? Here, every matchup is a grudge match, and every victory is just another reason to rub it in. Let the trash talk begin!</p>
+  <p>Welcome to the bloodbath, folks. Think you’ve got what it takes to dominate your so-called friends? Here, every matchup is a grudge match, and every victory is just another reason to rub it in. Let the trash talk begin!</p>
 
   <p><b>Records: The Good, the Bad, and the Tebow</b></p>
   <p>Check the records to see just how low you can go. We rank you, we judge you, and we make sure everyone knows who's at the top (and more importantly, who's at the bottom). Your record is your legacy, for better or worse.</p>
