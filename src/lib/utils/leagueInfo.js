@@ -11,21 +11,24 @@ export const homepageText = `
   <p>This is the only place where your football dreams come to get benched. Here at Rhodes Ballers HQ, we take fantasy football just as seriously as your grandma takes her bingo nights. So, strap in, because this season is going to be a wild ride of questionable decisions, shattered hopes, and the occasional victory dance.</p>
   <p>Ever wanted to feel the thrill of managing a real football team? Well, keep dreaming. Instead, you'll get the joy of watching your star players get injured, your benchwarmers become legends, and your friends mock your every move.</p>
 
-  <p><b>Weekly Breakdown: Because You Need to Know Why You Suck</b></p>
-  <p>Monday: reflect on your poor life choices and contemplate a trade that'll haunt you forever.</p>
-  <p>Tuesday: scour the waiver wire like a desperate scavenger looking for crumbs of talent.</p>
-  <p>Wednesday: send out trade offers that are so bad, even you wouldn't accept them.</p>
-  <p>Thursday: watch your players underperform in prime time and blame it on the coach.</p>
-  <p>Friday: read expert advice and ignore it because you obviously know better.</p>
-  <p>Saturday: set your lineup and pray to the fantasy gods (who definitely hate you).</p>
-  <p>Sunday: the big day - watch your team crumble and your hopes with it.</p>
+<p><b>Weekly Breakdown: Because You Need to Know Why You Suck</b></p>
+  <p><b>Monday</b>: reflect on your poor life choices and contemplate a trade that'll haunt you forever.<br>
+  <b>Tuesday</b>: scour the waiver wire like a desperate scavenger looking for crumbs of talent.<br>
+  <b>Wednesday</b>: send out trade offers that are so bad, even you wouldn't accept them.<br>
+  <b>Thursday</b>: watch your players underperform in prime time and blame it on the coach.<br>
+  <b>Friday</b>: read expert advice and ignore it because you obviously know better.<br>
+  <b>Saturday</b>: set your lineup and pray to the fantasy gods (who definitely hate you).<br>
+  <b>Sunday</b>: the big day - watch your team crumble and your hopes with it.</p>
 
   <p><b>Standings: The Cold, Hard Truth</b></p>
   <p>Check the standings to see just how low you can go. We rank you, we judge you, and we make sure everyone knows who's at the top (and more importantly, who's at the bottom). Remember, there's no shame in last place—just endless ridicule.</p>
 
-  <p><b>Rhodes Ballers Hall of Shame</b></p>
-  <p>Think you’ve hit rock bottom? Think again. Our Hall of Shame highlights the worst trades, the most epic fails, and the players who should never, ever be trusted again. It’s like a car crash—you can’t look away.</p>
+  <p><b>Head-to-Head Rivalries</b></p>
+  <p>Welcome to the bloodbath, folks. Our Head-to-Head Rivalries section is where friendships go to die. Think you’ve got what it takes to dominate your so-called friends? Here, every matchup is a grudge match, and every victory is just another reason to rub it in. Let the trash talk begin!</p>
 
+  <p><b>Records: The Good, the Bad, and the Tebow</b></p>
+  <p>Check the records to see just how low you can go. We rank you, we judge you, and we make sure everyone knows who's at the top (and more importantly, who's at the bottom). Remember, there's no shame in last place—just endless ridicule. Your record is your legacy, for better or worse.</p>
+  
   <p><b>The Draft: Your First Mistake of Many</b></p>
   <p>Relive the glory (or disaster) of draft night. Who reached for a kicker in the second round? Who drafted a player who retired last season? The draft sets the tone for the entire season, and spoiler alert: it’s usually a tone of regret.</p>
 
