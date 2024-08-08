@@ -27,7 +27,7 @@ export const homepageText = `
   <p>Welcome to the bloodbath, folks. Our Head-to-Head Rivalries section is where friendships go to die. Think you’ve got what it takes to dominate your so-called friends? Here, every matchup is a grudge match, and every victory is just another reason to rub it in. Let the trash talk begin!</p>
 
   <p><b>Records: The Good, the Bad, and the Tebow</b></p>
-  <p>Check the records to see just how low you can go. We rank you, we judge you, and we make sure everyone knows who's at the top (and more importantly, who's at the bottom). Remember, there's no shame in last place—just endless ridicule. Your record is your legacy, for better or worse.</p>
+  <p>Check the records to see just how low you can go. We rank you, we judge you, and we make sure everyone knows who's at the top (and more importantly, who's at the bottom). Your record is your legacy, for better or worse.</p>
   
   <p><b>The Draft: Your First Mistake of Many</b></p>
   <p>Relive the glory (or disaster) of draft night. Who reached for a kicker in the second round? Who drafted a player who retired last season? The draft sets the tone for the entire season, and spoiler alert: it’s usually a tone of regret.</p>
