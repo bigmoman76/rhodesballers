@@ -48,120 +48,122 @@ export const managers = [
      {
        "managerID": "76704578015739904",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Nate",
+       "location": "Misery", // (optional)
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Betting against the Bears",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 8, // 1 - 10
        "photo": "/managers/nate.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 103, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 103 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "343438039277658112",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "James",
+       "location": "The Fed", // (optional)
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Missing Brett Favre",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 6, // 1 - 10
        "photo": "/managers/james.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 462, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 462 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "523201490963185664",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Andrew",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "Florida Retirement Community", // (optional)
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Being a member of the 12th man",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 10, // 1 - 10
        "photo": "/managers/andrew.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 996, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 996 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "570651875111063552",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Jared",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "JJ Watt's jacuzzi", // (optional)
        "favoriteTeam": "hou", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Starting Tebow",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 1, // 1 - 10
        "photo": "/managers/jared.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 559, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 559 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712028764032290816",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Stephen",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "Josh Allen's snowfort", // (optional)
        "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Buying Buffalo Bills hawaiian t-shirts",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 1, // 1 - 10
        "photo": "/managers/stephen.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 2212, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 2212 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712083384075091968",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "John",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "A Marriott hotel", // (optional)
        "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Thinking this will finally be the year for the Titans",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 5, // 1 - 10
        "photo": "/managers/john.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 9999, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 9999 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712083810069594112",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Tom",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "A LAN shop", // (optional)
        "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Criticising league commissioners over ever issue",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 8, // 1 - 10
        "photo": "/managers/tom.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 4981, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 4981 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712125567763337216",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Jack",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "A courtroom somewhere", // (optional)
        "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Being a closeted Lions fan",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 1, // 1 - 10
        "photo": "/managers/jack.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 3163, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 3163 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "712558417339805696",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "MVP",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "Mic night", // (optional)
        "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Drafting Cam Newton at all costs",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 1, // 1 - 10
        "photo": "/managers/mvp.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 954, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 954 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "719226505930027008",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Joey",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "Mother Russia", // (optional)
        "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Some sort of communist who appreciates chatbots",
-       "tradingScale": null, // 1 - 10
+       "tradingScale": 5, // 1 - 10
        "photo": "/managers/joey.jpg", // square ratio recommended (no larger than 500x500)
-       "favoritePlayer": 1071, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 1071 // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
        "managerID": "720725237783658496",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Stan",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "location": "Near Nick", // (optional)
+       "favoriteTeam": "ari", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "STAHN!?",
-       "tradingScale": null, // 1 - 10
-       "photo": "/managers/stan.jpg", // square ratio recommended (no larger than 500x500)
+       "tradingScale": 1, // 1 - 10
+       "photo": "/managers/stan.jpg" // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "720765571465060352",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Nick",
-       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "location": "Near Stan", // (optional)
+       "favoriteTeam": "ari", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Laughing like Bevis and Butthead",
-       "tradingScale": null, // 1 - 10
-       "photo": "/managers/nick.jpg", // square ratio recommended (no larger than 500x500)
+       "tradingScale": 6, // 1 - 10
+       "photo": "/managers/nick.jpg" // square ratio recommended (no larger than 500x500)
      }
   ]
   
