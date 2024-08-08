@@ -46,7 +46,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
      {
-       "roster": 76704578015739904,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 76704578015739904,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Nate",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -54,7 +54,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 343438039277658112,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 343438039277658112,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "James",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -62,7 +62,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 523201490963185664,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 523201490963185664,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Andrew",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -70,7 +70,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 570651875111063552,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 570651875111063552,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Jared",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -78,7 +78,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 712028764032290816,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 712028764032290816,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Stephen",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -86,7 +86,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 712083384075091968,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 712083384075091968,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "John",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -94,7 +94,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 712083810069594112,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 712083810069594112,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Tom",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -102,7 +102,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 712125567763337216,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 712125567763337216,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Jack",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -110,7 +110,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 712558417339805696,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 712558417339805696,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "MVP",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -118,7 +118,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 719226505930027008,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 719226505930027008,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Joey",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -126,7 +126,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 720725237783658496,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 720725237783658496,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Stan",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -134,7 +134,7 @@ export const managers = [
        "tradingScale": null, // 1 - 10
      },
      {
-       "roster": 720765571465060352,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": 720765571465060352,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Nick",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
