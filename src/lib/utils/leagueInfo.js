@@ -45,72 +45,102 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 // To omit an optional field, set it's value to null
 
 export const managers = [
-    // {
-    //   "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Your Name",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "rival": {
-    //     name: "Rival", // Can be anything (usually your rival's name)
-    //     link: 6, // manager array number within this array, or null to link back to all managers page
-    //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    //   },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Your fantasy team's philosophy",
-    //   "tradingScale": 10, // 1 - 10
-    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-    // {
-    //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Your Name",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "rival": {
-    //     name: "Rival", // Can be anything (usually your rival's name)
-    //     link: 6, // manager array number within this array, or null to link back to all managers page
-    //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    //   },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Your fantasy team's philosophy",
-    //   "tradingScale": 10, // 1 - 10
-    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-    // {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Your Name",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "rival": {
-    //     name: "Rival", // Can be anything (usually your rival's name)
-    //     link: 6, // manager array number within this array, or null to link back to all managers page
-    //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    //   },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Your fantasy team's philosophy",
-    //   "tradingScale": 10, // 1 - 10
-    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
+     {
+       "roster": 76704578015739904,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Nate",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Betting against the Bears",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 343438039277658112,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "James",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Missing Brett Favre",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 523201490963185664,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Andrew",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Being a member of the 12th man",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 570651875111063552,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Jared",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Starting Tebow",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 712028764032290816,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Stephen",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Buying Buffalo Bills hawaiian t-shirts",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 712083384075091968,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "John",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Thinking this will finally be the year for the Titans",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 712083810069594112,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Tom",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Criticising league commissioners over ever issue",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 712125567763337216,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Jack",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Being a closeted Lions fan",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 712558417339805696,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "MVP",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Drafting Cam Newton at all costs",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 719226505930027008,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Joey",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Some sort of communist who appreciates chatbots",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 720725237783658496,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Stan",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "STAHN!?",
+       "tradingScale": null, // 1 - 10
+     },
+     {
+       "roster": 720765571465060352,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Nick",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "philosophy": "Laughing like Bevis and Butthead",
+       "tradingScale": null, // 1 - 10
+     },
   ]
   
   
