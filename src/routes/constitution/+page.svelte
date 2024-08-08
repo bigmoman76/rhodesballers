@@ -172,12 +172,12 @@
         
         <div class="subBlock">
             <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
+                <tr><td>QB</td><td class="right">None</td></tr>
+                <tr><td>RB</td><td class="right">None</td></tr>
+                <tr><td>WR</td><td class="right">None</td></tr>
+                <tr><td>TE</td><td class="right">None</td></tr>
+                <tr><td>D/ST</td><td class="right">None</td></tr>
+                <tr><td>K</td><td class="right">None</td></tr>
             </table>
         </div>
 
@@ -290,7 +290,7 @@
     <p>League payout is structured as follows. Weekly payouts of $10 will be set according to certain requirements and will be posted to Sleeper.</p>
     <ul>
         <li>1st place: $320</li>
-        <li>2nd place: $120$</li>
+        <li>2nd place: $120</li>
         <li>3rd place: $60</li>
         <li>Consoliation Bracket: $30</li>
         <li>Regular Season Best Record: $60</li>
