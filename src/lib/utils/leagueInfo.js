@@ -140,7 +140,7 @@ export const managers = [
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Laughing like Bevis and Butthead",
        "tradingScale": null, // 1 - 10
-     },
+     }
   ]
   
   
