@@ -52,6 +52,7 @@ export const managers = [
        "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Betting against the Bears",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/nate.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "343438039277658112",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -60,6 +61,7 @@ export const managers = [
        "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Missing Brett Favre",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/james.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "523201490963185664",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -68,6 +70,7 @@ export const managers = [
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Being a member of the 12th man",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/andrew.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "570651875111063552",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -76,6 +79,7 @@ export const managers = [
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Starting Tebow",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/jared.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "712028764032290816",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -84,6 +88,7 @@ export const managers = [
        "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Buying Buffalo Bills hawaiian t-shirts",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/stephen.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "712083384075091968",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -92,6 +97,7 @@ export const managers = [
        "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Thinking this will finally be the year for the Titans",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/john.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "712083810069594112",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -100,6 +106,7 @@ export const managers = [
        "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Criticising league commissioners over ever issue",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/tom.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "712125567763337216",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -108,6 +115,7 @@ export const managers = [
        "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Being a closeted Lions fan",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/jack.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "712558417339805696",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -116,6 +124,7 @@ export const managers = [
        "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Drafting Cam Newton at all costs",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/mvp.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "719226505930027008",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -124,6 +133,7 @@ export const managers = [
        "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Some sort of communist who appreciates chatbots",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/joey.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "720725237783658496",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -132,6 +142,7 @@ export const managers = [
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "STAHN!?",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/stan.jpg", // square ratio recommended (no larger than 500x500)
      },
      {
        "managerID": "720765571465060352",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -140,6 +151,7 @@ export const managers = [
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "philosophy": "Laughing like Bevis and Butthead",
        "tradingScale": null, // 1 - 10
+       "photo": "/managers/nick.jpg", // square ratio recommended (no larger than 500x500)
      }
   ]
   
