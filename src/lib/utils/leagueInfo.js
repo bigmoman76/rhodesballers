@@ -1,18 +1,18 @@
 /*   STEP 1   */
 export const leagueID = "1249051260070404096"; // your league ID
 export const leagueName = "Rhodes Ballers"; // your league name
-export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const dues = 60; // (optional) used in template constitution page
+export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Founded in the hallowed halls of Sigma Nu – Epsilon Sigma Chapter at Rhodes College in Memphis, the Rhodes Ballers League began as a way for brothers to pass the time between classes, tailgates, and questionable life decisions. What started as a casual redraft league has since evolved into a sacred annual tradition, carrying just as much weight as Homecoming and, in some cases, finals week.</p>
+  <p>Each fall, managers return to the draft with bold strategies, delusional optimism, and the same promises to “take it more seriously this year.” Draft day is part reunion, part war room—where alliances are made, vendettas are reignited, and at least one manager walks away wondering if auto-draft might’ve actually been the better call.</p>
+  <p>As the season kicks off, Sundays become a rollercoaster of overreactions. A sleeper pick turns into a stud, a sure-thing collapses into a bust, and the group chat turns into a digital coliseum where trash talk flows more freely than game-day beverages. Every point matters—because in this league, even the smallest victory can justify a week of obnoxious memes.</p>
+  <p>The stakes, of course, go beyond fantasy glory. Winning the Rhodes Ballers title isn’t just about finishing first—it’s about securing bragging rights that echo through the fraternity’s history. For the unlucky soul at the bottom of the standings? That means months of ridicule and a level of shame that not even Sigma Nu’s brotherhood can soften.</p>
+  <p>Over the years, some managers have built a reputation for consistently fielding competitive teams, while others have mastered the art of creative excuses. Injuries, “bad beats,” and “just not my year” have become familiar refrains. But no matter where you finish, one thing is guaranteed: come next draft, everyone believes they’re the smartest manager in the league.</p>
+  <p>The Rhodes Ballers isn’t just a league—it’s a tradition. It’s the annual reminder that football is more than a game; it’s a bond that keeps this group of brothers connected long after their days at Rhodes. And whether you’re gunning for the trophy or just trying to avoid the shame of finishing last, one truth remains: every Sunday in the Rhodes Ballers League is personal.</p>
 `;
 
 /*   STEP 3   */
